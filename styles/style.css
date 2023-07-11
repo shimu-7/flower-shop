@@ -64,3 +64,44 @@ nav {
     font-weight: 400;
     color: gray;
 }
+.featured-flower{
+    display: flex;
+     justify-content: space-between;
+    align-content: center;
+    padding: 25px 75px 0px;
+}
+ .featured-flower>div{
+    height: 450px;
+    width: 325px;
+ }
+.flower1{
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    background-image: url('../images/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+   margin-left: 75px;
+}
+.flower2{
+    border-radius: 350px 350px 0px 0px;
+    background-color: rgba(135, 207, 235, 0.257);
+    background-image: url('../images/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flower3{
+    border-radius: 300px 300px 0px 0px;
+    background-color: lightgrey;
+    background-image: url('../images/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-right: 75px;
+}
+.caption>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 75px 0px;
+    text-decoration: underline;
+    font-weight: bold;
+}

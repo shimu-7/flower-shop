@@ -71,13 +71,14 @@ nav {
     padding: 25px 75px 0px;
 }
  .featured-flower>div{
-    height: 450px;
+    height: 400px;
     width: 325px;
  }
 .flower1{
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     background-image: url('../images/pngwing\ 6.png');
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     background-position: bottom;
    margin-left: 75px;
@@ -86,6 +87,7 @@ nav {
     border-radius: 350px 350px 0px 0px;
     background-color: rgba(135, 207, 235, 0.257);
     background-image: url('../images/pngwing\ 5.png');
+    background-size: 325px 225px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -93,6 +95,7 @@ nav {
     border-radius: 300px 300px 0px 0px;
     background-color: lightgrey;
     background-image: url('../images/pngwing\ 7.png');
+    background-size: 250px 300px;
     background-repeat: no-repeat;
     background-position: bottom;
     margin-right: 75px;
@@ -104,4 +107,41 @@ nav {
     padding: 20px 75px 0px;
     text-decoration: underline;
     font-weight: bold;
+}
+.service-info
+{
+    height: 200px; 
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.service-align{
+    text-align: center;
+}
+.service{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+     padding: 60px 100px ;
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+    background-color: rgba(229, 84, 115, 0.04);
+}
+.flower{
+    margin-top: 40px;
+    padding: 0 75px;
+    display: flex;
+    align-items: center;
+}
+.fig1{
+    padding-left: 75px;
+}
+.flower img{
+    margin-right: 12px;
 }

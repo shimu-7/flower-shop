@@ -10,7 +10,24 @@ body {
 .header{
     padding-bottom: 0;
 }
-nav {
+nav{
+    background-color: #e5547391;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+nav>h3{
+    text-align: center;
+}
+nav>button{
+    margin-bottom: 25px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #e5547381;
+}
+.first-section {
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -119,24 +119,7 @@ button:hover{
     background-position: bottom;
     margin-right: 75px;
 }
-.works{
-    display: flex;
-    align-items: center;
-    margin:75px 150px 0px;
-}
-.works>div{
-    margin-right: 10px;
-}
-.block{
-    display: block;
-}
-.inline{
-    display: flex;
-}
-.inline>div{
-    margin-right: 10px;
-    margin-top: 10px;
-}
+
 
 .caption>ul{
     display: flex;
